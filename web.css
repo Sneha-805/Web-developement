@@ -1,0 +1,40 @@
+body {
+    background-image: linear-gradient(to bottom,rgb(127, 70, 164),pink);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    height: 90vh;
+    margin: 0;
+}
+h2{
+    text-shadow:4px 3px rgb(27, 36, 100);
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size:40px;
+    margin-bottom: 40px;
+}
+a{
+    text-shadow:4px 3px rgb(123, 107, 94);
+    text-decoration: none;
+    color: white;
+    font-size:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:hover{
+    color:whitesmoke;
+}
+button{
+    border-radius:7px ;
+    border-style: solid 5px black;
+    padding: 60px;
+    cursor: pointer;
+    
+}
+button:hover
+{
+    color:darkgreen;
+}
